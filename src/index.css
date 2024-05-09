@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/grid.png"), url("./assets/image_1.png");
+  background-size: cover; /* Adjust as needed */
+  background-position: center;
+}
+.center-card{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 5%;
+  position: relative;
+  
+}
+
+
+.avatar-card{
+ position: relative;
+ /* border: 2px solid  #6EDFE4; */
+ width: 245px;
+ height: 365px;
+ /* margin-top: 100px; */
+ background-image: url('./assets//Vector_7.png'), url('./assets/Mask_group.png');
+ background-size: cover;
+ top: 80px;
+ left: 90px;
+ z-index: 99;
+ 
+}
+
+.person-img{
+  background-image: url('./assets/person.png');
+  background-size: cover;
+}
+
+
+.logo-content{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+.logo-content .logo-img{
+  width: 50px;
+  height: 50px;
+}
+
+.logo-content .user-firstname{
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.logo-content .user-lastname{
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.card-img{
+  position: relative;
+}
+
+.card-img img{
+  width: 700px;
+  height: 520px;
+}
+
+.card-content{
+  position: absolute;
+  top: 30px;
+  left: 15%;
+  padding: 20px;
+  color: #fff;
+}
+.card-content h1{
+  font-size: 42px;
+  letter-spacing: 8px;
+  line-height: 46px;
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.card-content .description{
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.flex-between{
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.flex-between .type-key{
+  font-size: 24px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 30px;
+
+}
+.flex-between .type-value{
+  font-size: 24px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 30px;
+
+}
+
+.action-btns{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+
+}
+.action-btns img{
+  width: 200px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.card-img .instruction-card-bg {
+  width: 950px;
+  height: 550px;
+}
+
+.instruction-card-content{
+  position: absolute;
+  top: 13%;
+  left: 10%;
+  padding: 20px;
+  color: #fff;
+}
+
+.instruction-card-content h1{
+  font-size: 42px;
+  letter-spacing: 8px;
+  line-height: 46px;
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.instruction-list{
+  padding: 15px 20px;
+}
+
+.instruction-list li {
+  font-size: 20px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  /* font-style: normal; */
+  line-height: 38px;
+}
+
+.countdown-circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10%;
+}
+
+.countdown-circle p{
+  font-size: 40px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  line-height: 38px;
+  color: #fff;
+}
+
+
+
+
